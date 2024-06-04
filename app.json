@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "QuickCrave",
+    "slug": "FoodStall-Mobile",
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "saikiritivoonna"
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.saikiritivoonna.QuickCrave",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extras": {},
+    "extra": {
+      "eas": {
+        "projectId": "d42572d4-f89d-4f42-af30-4067d8663ea2"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d42572d4-f89d-4f42-af30-4067d8663ea2"
+    }
+  }
+}
